@@ -21,7 +21,8 @@ crontab -l
 00 00  * * *    /usr/sbin/ntpdate -u 192.168.1.220
 
 
-自定义：
-监控MySQL模板：https://github.com/yangcvo/zabbix.2.4.git
+#监控MySQL模板：
+
+下载：https://github.com/yangcvo/zabbix.2.4.git
 
 
