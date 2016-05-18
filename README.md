@@ -12,6 +12,7 @@
 
 ####出现乱码：
 乱码安装包下载地址：https://github.com/yangcvo/zabbix.2.4.git
+
 参考文档：http://www.sysopen.cn/20150516/
 
 
@@ -25,4 +26,7 @@ crontab -l
 ####监控MySQL模板：
 
 下载：https://github.com/yangcvo/zabbix.2.4.git
+
 monitoring mysql with zabbix：http://www.sysopen.cn/20160616-2/
+
+
