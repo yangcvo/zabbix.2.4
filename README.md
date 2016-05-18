@@ -10,19 +10,19 @@
 
 
 
-#出现乱码：
+####出现乱码：
 乱码安装包下载地址：https://github.com/yangcvo/zabbix.2.4.git
+参考文档：http://www.sysopen.cn/20150516/
 
 
 
-#时间同步
+####时间同步
 最重要的一点在最后提，请确保你所有的服务器时间都是正确的，为了确保时间ok，请在crontab里面加上定时时间同步。
 crontab -l
 00 00  * * *    /usr/sbin/ntpdate -u 192.168.1.220
 
 
-#监控MySQL模板：
+####监控MySQL模板：
 
 下载：https://github.com/yangcvo/zabbix.2.4.git
-
-
+monitoring mysql with zabbix：http://www.sysopen.cn/20160616-2/
