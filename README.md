@@ -30,6 +30,6 @@ crontab -l
 
 * 下载：https://github.com/yangcvo/zabbix.2.4.git
 
-* monitoring mysql with zabbix：http://www.sysopen.cn/20160616-2/
+* monitoring mysql with zabbix：http://www.sysopen.cn/20160515/
 
 
