@@ -13,9 +13,47 @@
 
 
 #出现乱码：
-* 乱码安装包下载地址：https://github.com/yangcvo/zabbix.2.4.git
+* 乱码安装包下载地址：https://github.com/yangcvo/
 
-* 参考文档：http://www.sysopen.cn/20150516/
+* 参考文档：
+
+```
+zabbix2.4版本都已有汉化功能了，直接选择中文就行。
+
+可是低版本的就需要安装汉化，可是发现打开图形界面是空白图形：
+
+遇到中文乱码问题。zabbix乱码是怎么照成的呢？zabbix使用DejaVuSan.ttf字体，不支持中文，导致中文出现乱码。解决方法很简单，把我们电脑里面字体文件传到zabbix服务器上。
+
+
+在zabbix-server端上面进入安装目录：
+
+var/www/html/zabbix/fonts目录下面查看，发现之前上传字体的文件名后缀是.ttc，猜着一般见到的都后缀都是ttf的，会不会是这个问题导致的呢。于是在windows系统上找到simkai.ttf,上传到fonts下，编辑/var/www/html/zabbix/include/defines.inc.php，更改：
+
+
+    define(‘ZBX_FONT_NAME‘, ‘simkai‘);
+
+    define(‘ZBX_GRAPH_FONT_NAME‘,  ‘simkai‘);
+
+
+没有simfang.ttf 文件的可以到我github下载：
+
+    https://github.com/yangcvo/zabbix.2.4.git
+
+设置好了，服务重启下，刷新，图下面就有字体了：
+ 
+
+常见问题：
+依旧乱码：通过以上的操作，大部分同学的乱码问题解决了，但是依旧有一些同学还是乱码？细心的群友提供另外一种情况：初始化数据库的时候未使用utf8编码所致.初始化数据库使用命令
+
+    create database zabbix default charset utf8;
+   
+或者my.cnf增加如下配置
+
+    default-character-set = utf8
+
+5. 总结 
+乱码处理方法很简单，实际上就是替换字体。
+```
 
 
 
