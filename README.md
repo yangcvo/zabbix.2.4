@@ -12,7 +12,7 @@
 
 下载源码包地址：http://jaist.dl.sourceforge.net/project/zabbix/ZABBIX%20Latest%20Stable/
 
-
+zabbix-server2-4全新升级3.0.3版:[zabbix-server2-4全新升级3-0版](http://blog.yangcvo.me/2016/07/21/zabbix-server2-4全新升级3-0版本/)
 
 zabbix-server2.4服务端编译安装 [zabbix-server服务端编译安装](http://blog.yangcvo.me/2015/01/18/zabbix-server服务端编译安装/)
 
