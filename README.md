@@ -29,7 +29,7 @@ zabbix性能监控故障总结 [zabbix性能监控故障总结](http://blog.yang
 
 
 
-#时间同步
+# 时间同步
 
 * 最重要的一点在最后提，请确保你所有的服务器时间都是正确的，为了确保时间ok，请在crontab里面加上定时时间同步。
 crontab -l
@@ -38,9 +38,38 @@ crontab -l
 
 
 
-#监控MySQL模板：
+# 监控MySQL模板：
 
 [monitoring mysql with zabbix](github上面下载)
 
 
-# Redis监控
+# zabbix监控kvm
+### KVM monitoring through Zabbix 
+
+Monitor your KVM resources through Zabbix
+
+Zabbix 监控 KVM
+
+#### 安装依赖
+
+python2, libvirt-python (tested with 0.9.12.3, 0.10.2 and 1.1.3.x)
+
+    pip install libvirt-python 
+
+#### KVM Server 设定程序
+
+```bash
+cd /usr/local/bin/
+wget https://github.com/bushvin/zabbix-kvm-res/raw/master/bin/zabbix-kvm-res.py
+chmod a+x zabbix-kvm-res.py
+cd /etc/zabbix/zabbix_agentd.d
+wget https://github.com/bushvin/zabbix-kvm-res/raw/master/zabbix_agentd.conf/UserParameters
+service zabbix-agent restart
+```
+
+#### Zabbix Server 设定程序
+
+
+至https://github.com/bushvin/zabbix-kvm-res下载zabbix_kvm.xml
+将`zabbix_kvm.xml 汇入至Zabbix Server → Configuration → Templates → Import`
+
