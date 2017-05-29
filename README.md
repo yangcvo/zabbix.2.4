@@ -12,9 +12,9 @@
 
 下载源码包地址：http://jaist.dl.sourceforge.net/project/zabbix/ZABBIX%20Latest%20Stable/
 
-zabbix-server2-4全新升级3.0.3版:[zabbix-server2-4全新升级3-0版](http://blog.yangcvo.me/2016/06/18/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/Zabbix/zabbix-server2-4%E5%85%A8%E6%96%B0%E5%8D%87%E7%BA%A73-0%E7%89%88%E6%9C%AC/)
+zabbix-server2-4全新升级3.0.3版:[zabbix-server2-4全新升级3-0版](http://blog.yancy.cc/2016/06/18/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/Zabbix/zabbix-server2-4%E5%85%A8%E6%96%B0%E5%8D%87%E7%BA%A73-0%E7%89%88%E6%9C%AC/)
 
-zabbix-server2.4服务端编译安装 [zabbix-server服务端编译安装](http://blog.yangcvo.me/2014/10/03/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/Zabbix/zabbix2.4%E6%9C%8D%E5%8A%A1%E7%AB%AFyum-rpm%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/)
+zabbix-server2.4服务端编译安装 [zabbix-server服务端编译安装](http://blog.yancy.cc/2014/10/03/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/Zabbix/zabbix2.4%E6%9C%8D%E5%8A%A1%E7%AB%AFyum-rpm%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2/)
 
 zabbix2.4监控80端口状态 : [zabbix监控80端口状态](http://blog.yangcvo.me/2014/10/06/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/Zabbix/zabbix%E7%9B%91%E6%8E%A780%E7%AB%AF%E5%8F%A3%E7%8A%B6%E6%80%81/)
 
