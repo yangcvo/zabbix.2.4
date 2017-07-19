@@ -17,12 +17,10 @@ zabbix-server2-4全新升级3.0.3版:[zabbix-server2-4全新升级3-0版](http:/
 zabbix-server2.4服务端编译安装 [zabbix-server服务端编译安装](http://blog.yancy.cc/2014/10/02/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/Zabbix/Zabbix2.4server%E6%9C%8D%E5%8A%A1%E7%AB%AF%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85/)
 
 zabbix2.4监控80端口状态 : [zabbix监控80端口状态](http://blog.yancy.cc/2014/10/06/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/Zabbix/zabbix%E7%9B%91%E6%8E%A780%E7%AB%AF%E5%8F%A3%E7%8A%B6%E6%80%81/)
+
 zabbix+Grafana安装使用监控结合 ：[zabbix+Grafana安装使用监控结合](http://blog.yancy.cc/2016/06/17/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/Zabbix/zabbix-Grafana%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E7%BB%93%E5%90%88/)
+
 zabbix监控MySQL-添加自定义监控项 : [zabbix监控MySQL-添加自定义监控项](http://blog.yancy.cc/2014/09/29/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/Zabbix/zabbix%E7%9B%91%E6%8E%A7MySQL-%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9B%91%E6%8E%A7%E9%A1%B9/)
-zabbix的ICMP_Ping模版实现对客户端网络状态的监控 : [zabbix的ICMP_Ping模版实现对客户端网络状态的监控](http://blog.yangcvo.me/2014/10/01/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/Zabbix/zabbix%E7%9A%84ICMP-Ping%E6%A8%A1%E7%89%88%E5%AE%9E%E7%8E%B0%E5%AF%B9%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%BD%91%E7%BB%9C%E7%8A%B6%E6%80%81%E7%9A%84%E7%9B%91%E6%8E%A7/)
-
-
-zabbix性能监控故障总结 [zabbix性能监控故障总结](http://blog.yangcvo.me/2014/10/04/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/Zabbix/zabbix-%E6%95%85%E9%9A%9C%E6%80%BB%E7%BB%93/)
 
 
 
