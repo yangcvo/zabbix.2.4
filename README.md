@@ -24,7 +24,7 @@ zabbix监控MySQL-添加自定义监控项 : [zabbix监控MySQL-添加自定义�
 
 
 
-### 时间同步
+## 时间同步
 
 * 最重要的一点在最后提，请确保你所有的服务器时间都是正确的，为了确保时间ok，请在crontab里面加上定时时间同步。
 crontab -l
@@ -33,16 +33,15 @@ crontab -l
 
 
 
-### 监控MySQL模板：
+## 监控MySQL模板：
 
 [monitoring mysql with zabbix](github上面下载)
 
 
-### zabbix监控kvm
+## zabbix Monitor kvm
 
 
 ```bash
-
 Monitor your KVM resources through Zabbix
 
 安装依赖
@@ -53,7 +52,6 @@ python2, libvirt-python (tested with 0.9.12.3, 0.10.2 and 1.1.3.x)
 
 KVM Server 设定程序
 
-
 cd /usr/local/bin/
 wget https://github.com/bushvin/zabbix-kvm-res/raw/master/bin/zabbix-kvm-res.py
 chmod a+x zabbix-kvm-res.py
@@ -61,16 +59,14 @@ cd /etc/zabbix/zabbix_agentd.d
 wget https://github.com/bushvin/zabbix-kvm-res/raw/master/zabbix_agentd.conf/UserParameters
 service zabbix-agent restart
 
-
 Zabbix Server 设定程序
-
 
 至https://github.com/bushvin/zabbix-kvm-res下载zabbix_kvm.xml
 将`zabbix_kvm.xml 汇入至Zabbix Server → Configuration → Templates → Import`
 ```
 
 
-#### Zabbix Graphtree 3.0.3最新版本支持
+## Zabbix Graphtree 3.0.3最新版本支持
 
 功能点
 
@@ -91,11 +87,11 @@ function
 七，对原生无图的监控项进行绘图
 
 
-支持3.0版本
+#### 支持3.0版本
 
 Graphtree支持3.0.1/3.0.2/3.0.3
 
-这里以3.0.3为例介绍
+#### 这里以3.0.3为例介绍
 
 ```
 wget http://http://sourceforge.net/projects/zabbix/files/ZABBIX%20Latest%20Stable/3.0.3/zabbix-3.0.3.tar.gz
