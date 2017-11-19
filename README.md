@@ -68,3 +68,43 @@ Zabbix Server 设定程序
 至https://github.com/bushvin/zabbix-kvm-res下载zabbix_kvm.xml
 将`zabbix_kvm.xml 汇入至Zabbix Server → Configuration → Templates → Import`
 ```
+
+
+#### Zabbix Graphtree 3.0.3最新版本支持
+
+功能点
+
+function
+
+一、集中展示所有分组设备
+
+二、集中展示一个分组图像
+
+三、集中展示一个设备图像
+
+四、展示设备下的Application
+
+五、展示每个Application下的图像
+
+六、展示每个Application下的日志
+
+七，对原生无图的监控项进行绘图
+
+
+支持3.0版本
+
+Graphtree支持3.0.1/3.0.2/3.0.3
+
+这里以3.0.3为例介绍
+
+```
+wget http://http://sourceforge.net/projects/zabbix/files/ZABBIX%20Latest%20Stable/3.0.3/zabbix-3.0.3.tar.gz
+tar xf zabbix-3.0.3.tar.gz
+cd zabbix-3.0.3/frontends/php
+wget https://raw.githubusercontent.com/OneOaaS/graphtrees/master/graphtree3-0-1.patch
+yum install -y patch
+patch  -Np0 <graphtree3-0-1.patch
+cp -r /tmp/zbx/zabbix-3.0.3/frontends/php /usr/share/zabbix
+cp /usr/share/zabbix-old/conf/zabbix.conf.php /usr/share/zabbix/conf/
+```
+
